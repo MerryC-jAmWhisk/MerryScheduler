@@ -30,28 +30,31 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="row">
+
+      <div class="row" id="hour_9">
         <div class="col-1 hour">
           9AM
         </div>
         <div id="9" class="col-9">
-          <textarea id="event" rows="2" cols="88"></textarea>
+          <textarea class="description" rows="2" cols="88"></textarea>
         </div>
         <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+          <button type="button" class="btn saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
-      <div class="row">
+
+      <div class="row" id="hour_10">
         <div class="col-1 hour">
           10AM
         </div>
         <div id="10" class="col-9">
-          <textarea id="event" class="hour10" rows="2" cols="88"></textarea>
+          <textarea class="description" rows="2" cols="88"></textarea>
         </div>
         <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+          <button type="button" class="btn saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-1 hour">
           11AM
@@ -60,9 +63,10 @@
           <textarea id="event" rows="2" cols="88"></textarea>
         </div>
         <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+          <button id="btn" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-1 hour">
           12PM
@@ -71,9 +75,10 @@
           <textarea id="event" rows="2" cols="88"></textarea>
         </div>
         <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+          <button id="btn" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-1 hour">
           1PM
@@ -82,9 +87,10 @@
           <textarea id="event" rows="2" cols="88"></textarea>
         </div>
         <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+          <button id="btn" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-1 hour">
           2PM
@@ -93,9 +99,10 @@
           <textarea id="event" rows="2" cols="88"></textarea>
         </div>
         <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+          <button id="btn" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-1 hour">
           3PM
@@ -104,9 +111,10 @@
           <textarea id="event" rows="2" cols="88"></textarea>
         </div>
         <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+          <button id="btn" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-1 hour">
           4PM
@@ -115,24 +123,26 @@
           <textarea id="event" rows="2" cols="88"></textarea>
         </div>
         <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+          <button id="btn" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-1 hour">
           5PM
         </div>
-        <div id="17" class="col-9">
+        <div id="17" class="col-10">
           <textarea id="event" rows="2" cols="88"></textarea>
         </div>
-        <div class="col-2">
-          <button id="btn" class="saveBtn"><i class="far fa-save"></i></button>
+        <div class="col-1 saveBtn">
+          <button id="btn" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    
   </body>
 </html>
