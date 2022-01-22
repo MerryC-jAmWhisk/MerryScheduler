@@ -5,25 +5,25 @@ var today = new Date();
 var currentTime = today.getHours();
 
 
-// // display current day and date
-// var time = moment().format("dddd, MMMM Do, YYYY");
-// currentDayEl.textContent = time;
+// display current day and date
+var time = moment().format("dddd, MMMM Do, YYYY");
+currentDayEl.textContent = time;
 
 
-// // display different color for past, present, and future hours
-// for (let i = 9; i < 18; i++) { 
-//     let timeCol = document.getElementById(i);
-//     if (i < currentTime) { 
-//         timeCol.setAttribute('class', 'past');
+// display different color for past, present, and future hours
+for (let i = 9; i < 18; i++) { 
+    let timeCol = document.getElementById(i);
+    if (i < currentTime) { 
+        timeCol.setAttribute('class', 'past');
         
-//     } else if (i > currentTime) {
-//         timeCol.setAttribute('class', 'future');
+    } else if (i > currentTime) {
+        timeCol.setAttribute('class', 'future');
         
-//     } else {
-//         timeCol.setAttribute('class', 'present');
+    } else {
+        timeCol.setAttribute('class', 'present');
 
-//     }
-// }
+    }
+}
 
 
 $(document).ready(function(){
